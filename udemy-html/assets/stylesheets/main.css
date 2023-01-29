@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #edf2f4;
+	font-family: sans-serif;
+	border-top: 10px solid #8d99ae;
+	position: relative;
+
+}
+
+.container {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+ font sizes : 40, 36, 32, 22, content ?
+*/
+
+.main-header {
+	background-color: #CED4DD;
+	padding: 20px 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+
+/* 	NAVIGATION */
+nav {
+	display: flex;
+	gap: 20px;
+	font-size: 18px;
+}
+
+a:link,visited {
+	color: #118ab2;
+	text-decoration: none;
+}
+
+a:hover, active {
+	color: #d90429;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h1, h2, h3 {
+	color: #118ab2;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 22px;
+}
+
+ul li {
+	font-size: 22px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+ol li {
+	font-size: 22px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+
+li:first-child {
+	font-weight: bold;
+}
+
+li:last-child {
+	font-style: italic;
+}
+.margin {
+	margin-bottom: 20px;
+	margin-top: 40px;
+}
+.post-img {
+	margin-top: 20px;
+	width: 100%;
+}
+
+aside {
+	background-color: #CED4DD;
+	border-top: 5px solid #118ab2;
+	border-bottom: 5px solid #118ab2;
+	margin-top: 40px;
+	padding: 30px 30px;
+	width: 50%;
+}
+
+.aside-heading {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.submit-button {
+	width: 80px;
+	padding: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.like-button {
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+
+	padding: 20px;
+	width: 100px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
