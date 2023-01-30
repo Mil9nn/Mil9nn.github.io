@@ -4,7 +4,7 @@
 }
 
 body {
-	background-color: #edf2f4;
+	background-color: #f1faee;
 	font-family: sans-serif;
 	border-top: 10px solid #8d99ae;
 	position: relative;
@@ -22,7 +22,7 @@ body {
 */
 
 .main-header {
-	background-color: #CED4DD;
+	background-color: #1d3557;
 	padding: 20px 20px;
 	margin-bottom: 30px;
 	margin-top: 20px;
@@ -37,7 +37,7 @@ nav {
 }
 
 a:link,visited {
-	color: #118ab2;
+	color: #f1faee;
 	text-decoration: none;
 }
 
@@ -48,7 +48,7 @@ a:hover, active {
 }
 
 h1, h2, h3 {
-	color: #118ab2;
+	color: #e63946;
 }
 
 h2 {
