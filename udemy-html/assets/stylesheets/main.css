@@ -40,7 +40,11 @@ nav {
 	font-size: 18px;
 }
 
-nav a, aside a {
+nav a {
+	color: #f1faee;
+}
+
+aside a {
 	color: #f1faee;
 }
 
