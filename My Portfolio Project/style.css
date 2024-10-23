@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a202c;
+    color: #edf2f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #edf2f4;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff7f50;
+    border-bottom: 2px solid #ff7f50;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: linear-gradient(135deg, #2d3748, #4a5568);
+    color: white;
+    text-align: center;
+}
+
+/* Profile Picture Styling */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #edf2f4;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .profile-pic {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+.cta-button {
+    margin-top: 1rem;
+    background-color: #ef233c;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d90429;
+    color: #000;
+}
+
+/* Content sections */
+.content-section {
+    padding: 2rem 2rem;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2rem;
+}
+
+.skill-card {
+    background-color: #1a202c;
+    color: #edf2f4;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.timeline {
+    border-left: 3px solid #ef233c;
+    padding-left: 2rem;
+}
+
+.timeline-item h3 {
+    color: #ef233c;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #1a202c;
+    color: #edf2f4;
+    padding: 1.2rem;
+    border-radius: 8px;
+}
+
+.project-link {
+    color: #ef233c;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.project-link:hover {
+    border-bottom: 2px solid #ff7f50;
+}
+
+/* General link styling */
+a {
+    color: #edf2f4;
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+a:hover {
+    color: #ef233c;
+    border-bottom: 2px solid #ef233c;
+}
+
+/* Footer styling */
+footer {
+    background-color: #1a202c;
+    color: #edf2f4;
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer a {
+    font-size: 1.5rem;
+}
+
+/* Carousel Styling */
+
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 30px auto;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    min-width: 100%; /* Ensure only one image is visible at a time */
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain; /* Ensure images maintain aspect ratio */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
